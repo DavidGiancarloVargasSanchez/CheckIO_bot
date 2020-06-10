@@ -1,0 +1,21 @@
+# .gitignore
+
+# temporary files
+.#~
+*.*~
+~.#~
+/.#~
+.vscode*
+
+venv/
+Pipfile
+Pipfile.lock
+
+# databases
+db.*
+*.sqlite3
+.idea/
+
+# keys
+secrets.json
+
